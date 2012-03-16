@@ -1,0 +1,259 @@
+.navbar-inner
+{
+	background-color: #940c05;
+	background-image: -moz-linear-gradient(top, #940c05, #6d0500);
+	background-image: -ms-linear-gradient(top, #940c05, #6d0500);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#940c05), to(#6d0500));
+	background-image: -webkit-linear-gradient(top, #940c05, #6d0500);
+	background-image: -o-linear-gradient(top, #940c05, #6d0500);
+	background-image: linear-gradient(top, #940c05, #6d0500);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#940c05', endColorstr='#6d0500', GradientType=0);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+body
+{
+	background-color: #191919;
+	color: white;
+	font-size:14px;
+	background-image: url("../images/dot.png");
+}
+
+hr {
+  margin: 18px 0;
+  border: 0;
+  border-top: 1px solid #282828;
+  border-bottom: 1px solid #2b2b2b;
+}
+
+div.basicBox 
+{
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #121212;
+	opacity:0.9;
+	border: 1px solid #282828;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+div.smallBox 
+{
+	padding: 15px;
+	width: 26%;
+	margin-bottom: 0px;
+	margin-left: 2%;
+	margin-right: 2%;
+	background-color: #121212;
+	opacity:0.9;
+	border: 1px solid #282828;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+	margin: 0;
+	font-weight: bold;
+	color: #d0d0d0;
+	text-rendering: optimizelegibility;
+}
+
+h4
+{
+	color: #505050;
+}
+
+a > h2, h2 a:visited, h2 a:active
+{
+	color:#940c05;
+	text-decoration: underline;
+}
+
+a, a:visited, a:active
+{
+	color:#940c05;
+}
+
+a:hover, a:hover > h2
+{
+	color:#6d0500;
+}
+
+.center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.textCenter
+{
+	text-align:center;
+}
+
+.textLeft
+{
+	text-align:left;
+}
+
+
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.table
+{
+	display: table;
+}
+
+.projectTile
+{
+	float:left;
+	width: 435px;
+	height: 290px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	padding: 5px;
+	margin-bottom: 20px;
+	background-color: #121212;
+	opacity:0.9;
+	border: 1px solid #282828;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.projectTileSmall
+{
+	float:left;
+	width: 250px;
+	height: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	padding: 5px;
+	margin-bottom: 20px;
+	background-color: #121212;
+	opacity:0.9;
+	border: 1px solid #282828;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.projectTileBig
+{
+	float:left;
+	width: 620px;
+	height: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	padding: 5px;
+	margin-bottom: 20px;
+	background-color: #121212;
+	opacity:0.9;
+	border: 1px solid #282828;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.imagesSection
+{
+	float:left;
+	width: 435px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	padding: 5px;
+}
+
+.imagesSectionBig
+{
+	float:left;
+	width: 620px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	padding: 5px;
+}
+
+.imagesSectionRow
+{
+	float:left;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#aboutMeImage
+{
+	width: 175px;
+	height: 175px;
+	margin-top:10px;
+	margin-left:60px;
+	
+	border: 1px solid #363636;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.resumeIcon
+{
+	width: 50px;
+	height: auto;
+}
+
+.socialIcon
+{
+	width: 50px;
+	height: auto;
+	margin: 5px 5px 0px 5px;
+}
+
+.lowestZ
+{
+	z-index: -10;
+}
+
+.highestZ
+{
+	z-index: 10;
+}
+
+.projectThumb
+{
+	overflow: hidden;
+	height: 75px;
+	width: 75px;	
+}
+
+.clipwrapper{
+  position:relative;
+  width:75px;
+  height:75px;
+   border: 1px solid #363636;
+}
+.clip{
+  position:absolute;
+  clip:rect(70px 255px 145px 180px);
+  top:-70px;
+  left:-180px;  
+}
