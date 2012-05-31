@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Fantasy Beer Pong</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/core.css" rel="stylesheet">
+    <script src="js/less.js"></script>
+	
+	
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html">Fantasy Beer Pong</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="rules.html">Rules</a></li>
+              <li><a href="about.html">About</a></li>  
+              <li class="active"><a href="changelist.html">Change List</a></li>  
+              <li><a href="tracking.html">Stat Tracking</a></li>               
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Masthead
+      ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+        <h1>Fantasy Beer Pong - The Changes</h1>
+        <p class="lead">Fantasy Beer Pong is being created through an iterative process. Things change. Here's a record of those changes.</p>
+      </header>
+
+      <div class="row-fluid">
+        <div class="span12">
+          <div class="accordion" id="accordion2">
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#3-3">
+                      Changeset 3.3
+                    </a>
+                  </div>
+                  <div id="3-3" class="accordion-body collapse in">
+                    <div class="accordion-inner">
+                      3.3 changes
+
+                      <ul>
+
+                        <li><b>General</b> - Passive Abilities cannot be used on last cup</li>
+                          <ul><li><i>Stealth</i> - Stealth is the exception and can still be used</li></ul>
+                        <li><b>Bard</b> - Added Special Effect</li>
+                          <ul><li><i>General Merriment</i> - The Bard’s team receives 1 additional Re-rack.</li></ul>
+                        <li><b>Berserker</b> - Changed Active</li>
+                          <ul><li><i>Relentless Assault</i> - The Berserker takes 3 shots in rapid succession while screaming. Relentless Assault should not take more than 5 seconds.</li></ul>
+                        <li><b>Guardian</b> - Buffed Passive</li>
+                          <ul><li><i>Hold the line</i> - When two or more cups are touching &  in a horizontal line, the Guardian can declare a Hold for that line. Doing this means until the line is broken, every cup behind the line is safe and can only be killed if it is made twice in the same turn, a Bounce behind the line only removes the cup made. <b>However, once the line is broken (which happens when a cup in the line is made) the Guardian will not be able to Hold the Line until they use Defensive Positions or Rerack.</b> The Guardian must say things like “HOLD”, “STEADY”, “RALLY!” to continue holding the line.</li></ul>
+                        <li><b>Necromancer</b> - Added Special Effect</li>
+                          <ul><li><i>Unholy Aura</i> - The enemy team receives 1 less Re-rack.</li></ul>
+                        <li><b>Ranger</b> - Changed Active</li>
+                          <ul><li><i>Long Shot</i> - The Ranger takes 3 large steps back from the table and shoots from here. If the Ranger makes a cup, it removes 1 additional cup. This CAN be used with Aim Shot. </li></ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#3-2">
+                      Changeset 3.2
+                    </a>
+                  </div>
+                  <div id="3-2" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                     3.2 changes
+
+                     <ul>
+                        <li><b>General</b> - Removed Requirements for Actives, they all come from Re-racks now.</li>
+                        <li><b>Assassin</b> - New Active</li>
+                          <ul><li><i>Hit your Mark</i> - The Assassin chooses a cup, when they shoot if the ball touches that cup at all it is considered a make and removed from the table. </li></ul>
+                        <li><b>Bard</b> - Changed Active</li>
+                          <ul><li><i>Warsong</i> - The Bard sings the Warsong, if their teammate makes a shot it removes 1 additional cup. The Bard does not get a Shot.</li></ul>
+                        <li><b>Bard</b> - Chanting is now Passive</li>
+                        <li><b>Cleric</b> - New Passives</li>
+                          <ul><li><i>Reckoning</i> - If both players of the enemy team miss, the Cleric can cast Reckoning. The enemy team is blind for the next turn and must shoot with their eyes closed. Reckoning cannot happen 2 turns in a row. </li></ul>
+                          <ul><li><i>Judgment</i> - If both players on the Cleric’s team make their shot, the Cleric can cast Judgment. The enemy team must shoot from their knees on the next turn.</li></ul>
+                        <li><b>Necromancer</b> - Cursing is now Passive</li>
+                  
+                        <li><b>Necromancer</b> - New Active</li>
+                          <ul><li><i>Raise Dead</i> - The Necro begins channeling Raise Dead at the start of their turn, they must chant magic spells until their next turn (they do not get a shot). If the enemy team does not make a successful shot before it is the Necro’s turn, the channel completes and the Necro can ressurect 1 cup from their graveyard.  </li></ul>                  
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#3-1">
+                      Changeset 3.1
+                    </a>
+                  </div>
+                  <div id="3-1" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                      3.1 changes
+
+                      <ul>
+                        <li><b>Necromancer</b> - Removed Dark Pact</li>
+                        <li><b>Necromancer</b> - Added Impending Doom</li>
+                          <ul><li><i>Impending Doom</i> - At the start of the Game, the Necro chooses a cup. This cup will move towards the Necro at a rate of 2-Cup-Diameters per Necro Turn. If the enemy team makes it in this cup, it will move back until it touches another cup in the rack OR until it reaches the same plane as another cup. (This is considered a make for all bonuses). When the cup crosses the halfway mark, it is removed from the table; then a new cup is chosen. </li></ul>
+                        <li><b>Ranger</b> - Removed Robin-Hooding</li>
+                        <li><b>Ranger</b> - Changed Passive</li>
+                          <ul><li><i>Aim Shot</i> - The Ranger can call a cup to make, they get two opportunities to make that cup; if they make it they remove 1 additional cup. If they do not make it in the specified cup, it doesn’t count.  Rangers are encouraged to squint their eyes and focus deeply while making Aim Shot’s.</li></ul>
+                        <li><b>Ranger</b> - Changed Active</li>
+                          <ul><li><i>Volley</i> - The Ranger makes a shot as normal, however if they make the shot 2 additional cups are removed, but only if they are touching the cup made.</li></ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#3-0">
+                      Changeset 3.0
+                    </a>
+                  </div>
+                  <div id="3-0" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                      3.0 changes
+
+                      <ul>
+                        <li><b>Support Changes</b> - When your team makes a cup or blocks an intentional bounce: The support class gets their buff. </li>
+                        <li><b>Assassin</b> - Rogue is now Assassin</li>
+                        <li><b>Bard</b> - Chanting is now Active</li>
+                        <li><b>Bard</b> - Changed Passive</li>
+                          <ul><li><i>General Merriment</i> - The Bard’s team receives 1 additional Re-rack! </li></ul>
+                        <li><b>Cleric</b> - Changed Passive</li>
+                          <ul><li><i>Triage</i> - <p>Every time the enemy team makes a cup, it is placed into Triage. The Cleric can use their mana pool to save these cups and return them to the battlefield; this action takes the Cleric’s turn. The Cleric also have to wave their hands in the air and make a funny sound. A Cleric can not do this if they are oom.</p>
+                          <p>When the enemy team re-racks, all of the cups in triage will die. Cups in Triage are considered out of play for all other purposes. A Cleric can only have as many cups in Triage as on the Playfield: if there are 4 cups up there can be 4 in Triage (2 Clerics may have double this amount, so 3 up 6 in Triage.) Any cup that is made twice in the same turn is instantly killed and cannot be placed into Triage.</p></li></ul>
+                        <li><b>Guardian</b> - Changed Passive</li>
+                          <ul><li><i>Hold the line</i> - <p>When two or more cups are touching &  in a horizontal line, the Guardian can declare a Hold for that line. Doing this means until the line is broken, every cup behind the line is safe and can only be killed if it is made twice in the same turn, a Bounce behind the line only removes the cup made. However, once the line is broken the Guardian loses a turn. The Guardian must say things like “HOLD”, “STEADY”, “RALLY!” to continue holding the line. </p>
+                         </li></ul>
+                        <li><b>Necromancer</b> - Cursing is now Active</li>
+                        <li><b>Necromancer</b> - Changed Passive</li>
+                          <ul><li><i>Impending Doom</i> - <p>At the start of the Game, the Necro chooses a cup. This cup will move towards the Necro at a rate of 2-Cup-Diameters per Necro Turn. If the enemy team makes it in this cup, it will move back until it touches another cup in the rack OR until it reaches the same plane as another cup. (This is considered a make for all bonuses). When the cup crosses the halfway mark, it is removed from the table; then a new cup is chosen. </p>
+                         </li></ul>
+                        <li><b>Necromancer</b> - Removed Curse of Pain, Added Curse of Silence</li>
+                          <ul><li><i>Curse of Silence</i> - <p>The afflicted player cannot use active or passive abilities (Triage/Dark Pact/General Merriment are not affected by this)</p>
+                         </li></ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#2-4">
+                      Changeset 2.4
+                    </a>
+                  </div>
+                  <div id="2-4" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                      2.4 changes
+
+                      <ul>
+                        <li><b>General</b> - Added the Bard Class!</li>     
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#2-3">
+                      Changeset 2.3
+                    </a>
+                  </div>
+                  <div id="2-3" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                      2.3 changes
+
+                      <ul>
+                        <li><b>General</b> - Illegally Blocking removes maximum cups that shot could have removed.</li> 
+                        <li><b>Cleric</b> - Buffed Replenish</li>         
+                        <li><b>Cleric</b> - Added Meditate</li>         
+                        <li><b>Necromancer</b> - Removed 2 curses</li>         
+                        <li><b>Wizard</b> - Nerfed Passive</li>     
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#2-2">
+                      Changeset 2.2
+                    </a>
+                  </div>
+                  <div id="2-2" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                      2.1 changes
+
+                      <ul> 
+                        <li><b>Cleric</b> - Buffed Replenish</li>       
+                        <li><b>Necromancer</b> - Buffed Raise Dead</li>       
+                        <li><b>Wizard</b> - New Active</li>     
+                        <li><b>Wizard</b> - Tweaked Flammable</li>     
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#2-0">
+                      Changeset 2.0
+                    </a>
+                  </div>
+                  <div id="2-0" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                      2.0 changes
+
+                      <ul> 
+                        <li><b>General</b> - Added Berserker Class</li>       
+                        <li><b>General</b> - Added Necromancer Class</li>    
+                        <li><b>General</b> - Simplified Rules</li> 
+                          <ul>
+                            <li>Removed Bounce Modifications</li>
+                            <li>Added Custom Requirements to Actives</li>
+                          </ul>   
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#1-0">
+                      Changeset 1.0
+                    </a>
+                  </div>
+                  <div id="1-0" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                      1.0 changes
+
+                      <ul> 
+                        <li><b>General</b> - Created Classes</li>
+                          <ul>
+                            <li>Cleric  - Support/Defensive class, focus on helping teammates & not ‘dieing’</li>
+                            <li>Guardian - Defensive class, focus on not ‘dieing’</li>  
+                            <li>Ranger - Offensive class, focus on skill shots</li>
+                            <li>Rogue - Offensive class, focus on surprise & stealth </li>
+                            <li>Wizard - Offensive class, focus on AoE & big damage’</li>
+                          </ul>         
+                        <li><b>General</b> - Created Abilities</li> 
+                          <ul>
+                            <li>Active Abilities - Once per Re-rack</li>
+                            <li>Bounce Modifications - Bounces all had special rules</li>
+                            <li>Passive Abilities - Always on</li>
+                          </ul>   
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <footer>
+        <p>© <a href="http://www.realdedicated.net">Real Dedicated 2012</a> | This site was made by <a href="http://brendanerquiaga.github.com">Brendan Erquiaga</a></p>
+      </footer>
+
+    </div>
+
+
+     <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+  </body>
+
+</html>

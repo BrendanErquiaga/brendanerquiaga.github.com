@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Fantasy Beer Pong</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	  <link href="css/core.css" rel="stylesheet">
+    <script src="js/less.js"></script>
+	
+	
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html">Fantasy Beer Pong</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="rules.html">Rules</a></li>
+              <li><a href="about.html">About</a></li>  
+              <li><a href="changelist.html">Change List</a></li>
+              <li><a href="tracking.html">Stat Tracking</a></li>               
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="rulesContainer">
+
+        <!-- Masthead
+      ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+        <h1>Fantasy Beer Pong - The Rules</h1>
+        <p class="lead">Fantasy Beer Pong was created to fit right over your Beer Pong rules. Each player chooses a class and you go from there.</p>
+      </header>
+
+      <hr>
+
+      <section id="intro">
+        <div class="row-fluid">
+          <div class="span7">         
+            <h1>Rules</h1>
+            <div>
+              <h2>Overview</h2>
+              <p>Fantasy Beer Pong is essentially an alternative rule set to beer pong that is intended to add a level of skill, tactics and fun into the already successful game. In Fantasy Beer Pong every player takes the role of a class, and through the classes abilities they drastically change the way they play the game.</p>
+            </div>
+
+            <button class="btn btn-danger" data-toggle="collapse" data-target="#fullrules">
+            Read Full Rules
+            </button>
+          </div><!-- end span7 -->
+
+          <div class="span5">
+            <div class="well" id="tldr">
+              <h2>Quick Reference</h2>
+              <ol>
+                <li><span>Each Player Picks a <a href="#classes">Class</a></span></li>
+                <li><span>Each Class has an Active Ability that they can use after a Re-Rack</span></li>
+                <li><span>Each Class has a Passive Ability that they can always use</span></li>
+                <li><span>Passive Abilities cannot be used on last cup (Except Stealth)</span></li>
+                <li>Each team gets 2 Re-Racks per game.</li>
+                <li>An intentional bounce shot counts as 2 cups made.</li>
+              </ol>
+            </div>
+          </div>          
+        </div> <!-- end row-fluid -->
+
+        <div id="fullrules" class="collapse">
+          <div class="row-fluid">
+            <div class="span7"> 
+                <h2>Game Structure</h2>
+                <p>In a game of Fantasy Beer Pong, every player must choose a class at the start of the game. We typically pick Round-Robin style but feel free to pick however you want.</p>
+
+                <h3>Classes</h3>
+                <p>In Fantasy Beer Pong we have 8 classes; Assassin, Bard, Berserker, Cleric, Guardian, Neromancer, Ranger, Wizard. These classes are derived from the classic fantasy archetypes. See the class specific rules <a href="#classes">below</a></p>
+
+                <p>Each class has a set of abilities that modify their play, these are unique to each class and strongly influence the players choices throughout the game. Abilities are broken into two categories, Active & Passives.</p>
+                <h4>Active Abilities</h4>
+                <p>Active Abilities are power-ups that you can use after your team has Re-Racked. Active abilities must be announced, failing to do so will prevent their use. Active Abilities do not have to be used immediatly after a Re-Rack you may choose when to use them. However, Active Abilities do not stack, you can only have 1 stored at a time. Active abilities typically involve removing extra cups or nullifying an enemy shot.</p>
+                <h4>Passive Abilities</h4>
+                <p>Passive Abilities are power-ups that are always on. These abilities play a huge role in defining a classes play-style. Each passive is unique and should play a large part in how you play each class.</p>
+
+                <p>Passive Abilities cannot be used on Last Cup, except for <i>Stealth</i>. This means you cannot Aim Shot the last cup. You cannot cast Reckoning when both enemies miss the last cup. You cannot buff/debuff someone shooting on last cup. If a Wizard makes last cup he does not get the ball back from Flammable.</p>
+
+                <h2>Beer Pong Rules</h2>
+                <p>Anyone who has played Beer Pong can tell you that there are more rule variations than anyone could possibly keep track of. We thought about this a lot during the design phase, doing our best to avoid specific beer pong rules which would create conflicts. Here are the only ones we enforce in Fantasy Beer Pong</p>
+
+                <ul>
+                  <li>Each team gets 2 Re-Racks per game.</li>
+                  <li>An intentional bounce shot counts as 2 cups made.</li>
+                </ul>
+
+
+                <p>That's it! Feel free to combine any variation of your own rules with ours, just don't expect them all to be balanced and mesh with the game perfectly (we can't test for everything...)</p>
+                                            
+            </div>
+
+          <div class="span5">
+            <div class="well" id="turnOrder">
+              <h2>Turn Order</h2>
+              <ol>
+                      <li>Receive Balls</li>
+                        <ul>
+                          <li>Berserker's <i>Counter-Attack</i> * </li>
+                        </ul>
+                      <li>Re-Rack *</li>
+                        <ul>
+                          <li>Announce Active Abilities *</li>
+                          <li>Bard <i>Chants</i> *</li>
+                        </ul>
+                      <li>Shoot</li>
+                        <ul>
+                          <li>Wizard's <i>Flammable</i> *</li>
+                          <li>Necromancer <i>Curses</i> *</li>
+                          <li>Cleric cast <i>Judgment</i> *</li>
+                          <li>Guardian uses <i>Defensive Positions</i> *</li>
+                        </ul>
+                      <li>Turn Ends</li>
+                        <ul>
+                          <li>Enemy Team Begins (See 1)</li>
+                        </ul>
+                </ol> 
+                * - If you have the abilitiy to AND you want to. 
+            </div>
+
+            <div  class="well">
+              <h2>Ratings</h2>
+              <ul>
+                <li>Complexity - How complex the rules for a given class are</li>
+                <li>Difficulty - How difficult the given class is to play effectively</li>
+                <li>Fun Factor - How fun the class is you silly goose ;)</li>
+              </ul>  
+            </div>
+          </div>
+        </div><!-- end row-fluid -->
+      </div><!-- end full-rules -->
+
+      </section>
+
+      <hr>
+      <a name="classes"></a>
+      <section id="classes">
+        <h1>Classes</h1>
+
+        <br>
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#assassin" data-toggle="tab">Assassin</a></li>
+          <li><a href="#bard" data-toggle="tab">Bard</a></li>
+          <li><a href="#berserker" data-toggle="tab">Berserker</a></li>
+          <li><a href="#cleric" data-toggle="tab">Cleric</a></li>
+          <li><a href="#guardian" data-toggle="tab">Guardian</a></li>
+          <li><a href="#necro" data-toggle="tab">Necro</a></li>
+          <li><a href="#ranger" data-toggle="tab">Ranger</a></li>
+          <li><a href="#wizard" data-toggle="tab">Wizard</a></li>
+        </ul>
+         
+        <div class="tab-content classInfo">
+          <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^Start of Assassin Class^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+          <div class="tab-pane active container" id="assassin">
+            <h2>Assassin</h2><p>The Assassin requires stealth to be effective, but can be deadly when played correctly.</p>
+
+            <div class="row-fluid">
+              <div class="span6 well">
+                <h3>Active Ability - <i>Hit Your Mark</i></h3>
+                <p>The Assassin chooses a cup, when they shoot if the ball touches that cup at all it is considered a make and removed from the table.</p>
+              </div>
+
+              <div class="span5 well">
+                <h3>Passive Ability - <i>Stealth</i></h3>
+                <p>The Assassin can shoot whenever they want, they do not have to follow the normal turn order. Assassin Bounces count for 3 cups.</p>
+              </div>
+            </div>
+
+            <div class="row-fluid">
+              <div class="span8">
+                <h4>Notes</h4>
+                <ul>
+                  <li><span>Assassins are NOT allowed to bring extra balls to the table, only the 2 in play are allowed to be used.</span></li>
+                  <li><span>Assassins can go -1 in turns, but they cannot go -2.</span></li>
+                  <li><span>A team can still re-rack after the Assassin has taken their shot.</span></li>
+                  <li><span>When returning balls to the other team, Assassins should roll them across the table to prevent confusion as to when they are sneaking in shots.  </span></li>
+                </ul>
+              </div>
+              <div class="span4">
+                  <h4>Tips</h4>
+                <ul>
+                  <li><span>Sneak accross the table and steal a ball from the water cup.</span></li>
+                  <li><span>Faking bounces during shots is a highly effective method to Psych out the enemy shooter.</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <p></p>
+
+            <div class="ranking row-fluid">
+              <div class="span4">
+                <span>Complexity 4/10</span>
+                <div class="progress">
+                  <div class="bar"
+                       style="width: 40%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Difficulty 7/10</span>
+                <div class="progress progress-warning">
+                  <div class="bar"
+                       style="width: 70%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Fun Factor 10/10</span>
+                <div class="progress progress-danger">
+                  <div class="bar"
+                       style="width: 100%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--~~~~~~~~~~~~~~~~~~~End of Assassin Class~~~~~~~~~~~~~~~~~~~ -->
+
+          <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^Start of Bard Class^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+          <div class="tab-pane" id="bard">            
+            <h2>Bard</h2><p>The Bard is about buffing your teammate, combined with a good player this can make you unstoppable.</p>
+
+            <div class="row-fluid">
+              <div class="span6 well">
+                <h3>Active Ability - <i>Warsong</i></h3>
+                <p>The Bard sings the Warsong, if their teammate makes a shot it removes 1 additional cup. The Bard does not get a Shot.</p>
+              </div>
+
+              <div class="span5 well">
+                <h3>Passive Ability - <i>Chanting</i></h3>
+                <p>If the Bard or their teammate makes a shot or blocks an intentional bounce, the Bard can chant 1 song on a teammate or themselves. These songs persist from the end of the Bard’s turn until the end of the Bard’s next turn. </p>
+              </div>
+            </div>
+
+            <div class="row-fluid">
+              <div class="span6 well">
+                <h3>Special Effect - <i>General Merriment </i></h3>
+                <p>The Bard’s team receives 1 additional Re-rack.</p>
+              </div>
+
+              <div class="span5 well">
+                <h3>Passive Ability - <i>Songs</i></h3>
+                <ul>
+                  <li><span><i>Chant of Battle</i> - If the player with this buff on them hits a cup but it does not go in, they get an extra alternate hand shot.</span></li>
+                  <li><span><i>Chant of Fearless </i> - The player with this buff on them can ignore the elbow rule, extending their arm as far out across the table as long as they have both feet on the ground.</span></li>
+                  <li><span><i>Chant of Invisibility </i> - Shots made while this buff is on the player cannot be countered by any active or passive abilities.</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row-fluid">
+              <div class="span8">
+                <h4>Notes</h4>
+                <ul>
+                  <li><span>Invisibility means no Shield-Blocking, Reckoning, Hold the line(ing), or Counter-Attacking.</span></li>
+                  <li><span>Bards must sing each song to ensure the buff is active, songs must include words.</span></li>
+                  <li><span>You must sing while the buff is being used.</span></li>
+                </ul>
+              </div>
+              <div class="span4">
+                  <h4>Tips</h4>
+                <ul>
+                  <li><span>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <p></p>
+
+            <div class="ranking row-fluid well">
+              <div class="span4">
+                <span>Complexity 9/10</span>
+                <div class="progress">
+                  <div class="bar"
+                       style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Difficulty 4/10</span>
+                <div class="progress progress-warning">
+                  <div class="bar"
+                       style="width: 40%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Fun Factor 5/10</span>
+                <div class="progress progress-danger">
+                  <div class="bar"
+                       style="width: 50%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--~~~~~~~~~~~~~~~~~~~End of Bard Class~~~~~~~~~~~~~~~~~~~ -->
+
+          <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^Start of Berserker Class^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+          <div class="tab-pane" id="berserker">
+            <h2>Berserker</h2><p>The Berserker is about throwing as many balls as possible, with your shirt off.</p>
+
+            <div class="row-fluid">
+              <div class="span6 well">
+                <h3>Active Ability - <i>Relentless Assault</i></h3>
+                <p>The Berserker takes 3 shots in rapid succession while screaming. Relentless Assault should not take more than 5 seconds.</p>
+              </div>
+
+              <div class="span5 well">
+                <h3>Passive Ability - <i>Counter Attacks</i></h3>
+                <p>A Berserker may counter-attack when a cup is made against his team, once for every cup made. A counter-attack is a behind-the-back or alternative hand shot, while screaming.</p>
+              </div>
+
+              <div class="row-fluid">
+                <div class="span6 well">
+                  <h3>Special Effect - <i>All Out Offense</i></h3>
+                  <p>Berserker's cannot block bounces.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-fluid">
+              <div class="span8">
+                <h4>Notes</h4>
+                <ul>
+                  <li><span>Counter-Attacks happen before re-racks at the start of the Berserker’s turn.</span></li>
+                </ul>
+              </div>
+              <div class="span4">
+                  <h4>Tips</h4>
+                <ul>
+                  <li><span>~~~~~~~~~~~~~~~~~~~~</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <p></p>
+
+            <div class="ranking row-fluid">
+              <div class="span4">
+                <span>Complexity 2/10</span>
+                <div class="progress">
+                  <div class="bar"
+                       style="width: 20%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Difficulty 4/10</span>
+                <div class="progress progress-warning">
+                  <div class="bar"
+                       style="width: 40%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Fun Factor 10/10</span>
+                <div class="progress progress-danger">
+                  <div class="bar"
+                       style="width: 100%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--~~~~~~~~~~~~~~~~~~~End of Berserker Class~~~~~~~~~~~~~~~~~~~ -->
+
+          <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^Start of Cleric Class^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+          <div class="tab-pane" id="cleric"><h2>Cleric</h2><p>The Cleric brings defense and annoying the enemy team together at last.</p>
+
+            <div class="row-fluid">
+              <div class="span6 well">
+                <h3>Active Ability - <i>Revive</i></h3>
+                <p>The Cleric is allowed to move 1 cup from their graveyard to the table, the Cleric also has to wave their hands in the air and make a funny sound.</p>
+              </div>
+
+              <div class="span5 well">
+                <h3>Passive Ability - <i>Reckoning</i></h3>
+                <p>If both players of the enemy team miss, the Cleric can cast Reckoning. The enemy team is blind for the next turn and must shoot with their eyes closed. Reckoning cannot happen 2 turns in a row.</p>
+              </div>
+
+              <div class="row-fluid">
+                <div class="span6 well">
+                  <h3>Passive Ability - <i>Judgment</i></h3>
+                  <p>If both players on the Cleric’s team make their shot, the Cleric can cast Judgment. The enemy team must shoot from their knees on the next turn.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-fluid">
+              <div class="span8">
+                <h4>Notes</h4>
+                <ul>
+                  <li><span>~~~~~~~~~~~~~~~~~~~~</span></li>
+                </ul>
+              </div>
+              <div class="span4">
+                  <h4>Tips</h4>
+                <ul>
+                  <li><span>~~~~~~~~~~~~~~~~~~~~</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <p></p>
+
+            <div class="ranking row-fluid">
+              <div class="span4">
+                <span>Complexity 6/10</span>
+                <div class="progress">
+                  <div class="bar"
+                       style="width: 60%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Difficulty 3/10</span>
+                <div class="progress progress-warning">
+                  <div class="bar"
+                       style="width: 30%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Fun Factor 6/10</span>
+                <div class="progress progress-danger">
+                  <div class="bar"
+                       style="width: 60%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--~~~~~~~~~~~~~~~~~~~End of Cleric Class~~~~~~~~~~~~~~~~~~~ -->
+
+          <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^Start of Guardian Class^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+          <div class="tab-pane" id="guardian"><h2>Guardian</h2><p>The Guardian requires constant vigilance, and a strong shield arm.</p>
+
+            <div class="row-fluid">
+              <div class="span6 well">
+                <h3>Active Ability - <i>Shield Block</i></h3>
+                <p>The Guardian can block any shot they want as long as they say ‘Shield block’ out loud before contact is made.</p>
+              </div>
+
+              <div class="span5 well">
+                <h3>Passive Ability - <i>Hold the Line</i></h3>
+                <p>When two or more cups are touching &  in a horizontal line, the Guardian can declare a Hold for that line. Doing this means every cup behind the line is safe and can only be killed if it is made twice in the same turn, a Bounce behind the line only removes the cup made. However, once the line is broken (which happens when a cup in the line is made) the Guardian will not be able to Hold the Line until they use <i>Defensive Positions</i> or Rerack. </p>
+              </div>
+
+              <div class="row-fluid">
+                <div class="span6 well">
+                  <h3>Special Effect - <i>Shield</i></h3>
+                  <p>The Guardian can craft a shield, but the size must be roughly the size of a six-pack box.</p>
+                </div>
+
+                <div class="span5 well">
+                  <h3>Passive Ability - <i>Defensive Positions</i></h3>
+                  <p>Whenever a Guardian or their teammate makes a cup or blocks an intentional bounce, the Guardian may reposition any cup into a legal position.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-fluid">
+              <div class="span8">
+                <h4>Notes</h4>
+                <ul>
+                  <li><span>The Guardian must say things like “HOLD”, “STEADY”, “RALLY!” to continue holding the line.</span></li>
+                  <li><span>If a Guardian blocks a ball and it goes into a cup, that counts as a legal shot.</span></li>
+                </ul>
+              </div>
+              <div class="span4">
+                  <h4>Tips</h4>
+                <ul>
+                  <li><span>Stand of the side on the table that allows you to block without interrupting your partner.</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <p></p>
+
+            <div class="ranking row-fluid">
+              <div class="span4">
+                <span>Complexity 6/10</span>
+                <div class="progress">
+                  <div class="bar"
+                       style="width: 60%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Difficulty 5/10</span>
+                <div class="progress progress-warning">
+                  <div class="bar"
+                       style="width: 50%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Fun Factor 9/10</span>
+                <div class="progress progress-danger">
+                  <div class="bar"
+                       style="width: 90%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--~~~~~~~~~~~~~~~~~~~End of Guardian Class~~~~~~~~~~~~~~~~~~~ -->
+
+
+          <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^Start of Necro Class^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+          <div class="tab-pane" id="necro"><h2>Necromancer</h2><p>The Necromancer a great pick to counter a strong player.</p>
+
+            <div class="row-fluid">
+              <div class="span6 well">
+                <h3>Active Ability - <i>Raise Dead</i></h3>
+                <p>The Necro begins channeling Raise Dead at the start of their turn, they must chant magic spells until their next turn (they do not get a shot). If the enemy team does not make a successful shot before it is the Necro’s turn, the channel completes and the Necro can ressurect 1 cup from their graveyard.</p>
+              </div>
+
+              <div class="span5 well">
+                <h3>Passive Ability - <i>Cursing</i></h3>
+                <p>If the Necro or their teammate makes a shot or blocks an intentional bounce, the Necro can cast 1 curse on an enemy. These curses persist from the end of the Necro’s turn until the end of the Necro’s next turn. To ensure the curse sticks the Warlock must say:</p>
+                <p>"By the power of the dark arts, I cast a mighty [CurseType] curse on [PlayerName]"</p>
+              </div>
+
+              <div class="row-fluid">
+                <div class="span6 well">
+                  <h3>Special Effect - <i>Unholy Aura</i></h3>
+                  <p>The Enemy team receives 1 less Re-Rack.</p>
+                </div>
+
+                <div class="span5 well">
+                  <h3>Passive Ability - <i>Curses</i></h3>
+                  <ul>
+                    <li><span>Curse of Blindness - The afflicted player cannot block</span></li>
+                    <li><span>Curse of Clumsiness - The afflicted player must shoot behind the back until the curse wears off</span></li>
+                    <li><span>Curse of  Silence - The afflicted player cannot use active or passive abilities</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-fluid">
+              <div class="span8">
+                <h4>Notes</h4>
+                <ul>
+                  <li><span><i>Unholy Aura</i> does NOT stack if there are 2 Necro's on a team.</span></li>
+                </ul>
+              </div>
+              <div class="span4">
+                  <h4>Tips</h4>
+                <ul>
+                  <li><span>Chain Clumsiness on the best shooter for maximum defense.</span></li>
+                  <li><span>Cast Silence on enemy Bard's so they cannot buff their teammate, effectively shutting the class down.</span></li>
+                  <li><span>Cast Blindness when your enemy team has a Berserker for free bounces.</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <p></p>
+
+            <div class="ranking row-fluid">
+              <div class="span4">
+                <span>Complexity 9/10</span>
+                <div class="progress">
+                  <div class="bar"
+                       style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Difficulty 4/10</span>
+                <div class="progress progress-warning">
+                  <div class="bar"
+                       style="width: 40%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Fun Factor 6/10</span>
+                <div class="progress progress-danger">
+                  <div class="bar"
+                       style="width: 60%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--~~~~~~~~~~~~~~~~~~~End of Necro Class~~~~~~~~~~~~~~~~~~~ -->
+
+          <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^Start of Ranger Class^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+          <div class="tab-pane" id="ranger">
+            <h2>Ranger</h2><p>The Ranger class is for the sharp shooter, to fuck shit up with.</p>
+
+            <div class="row-fluid">
+              <div class="span6 well">
+                <h3>Active Ability - <i>Long Shot</i></h3>
+                <p>The Ranger takes 3 large steps back from the table and shoots from here. If the Ranger makes a cup, it removes 1 additional cup. This CAN be used with Aim Shot. </p>
+              </div>
+
+              <div class="span5 well">
+                <h3>Passive Ability - <i>Aim Shot</i></h3>
+                <p>The Ranger can call a cup to make, they get two opportunities to make that cup; if they make it they remove 1 additional cup. If they do not make it in the specified cup, it doesn’t count.  Rangers are encouraged to squint their eyes and focus deeply while making Aim Shot’s.</p>
+              </div>
+            </div>
+
+            <div class="row-fluid">
+              <div class="span8">
+                <h4>Notes</h4>
+                <ul>
+                  <li><span>~~~~~~~~~~~~</span></li>
+                </ul>
+              </div>
+              <div class="span4">
+                  <h4>Tips</h4>
+                <ul>
+                  <li><span>~~~~~~~~~~~~~~~~~~~~~~</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <p></p>
+
+            <div class="ranking row-fluid">
+              <div class="span4">
+                <span>Complexity 4/10</span>
+                <div class="progress">
+                  <div class="bar"
+                       style="width: 60%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Difficulty 9/10</span>
+                <div class="progress progress-warning">
+                  <div class="bar"
+                       style="width: 50%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Fun Factor 7/10</span>
+                <div class="progress progress-danger">
+                  <div class="bar"
+                       style="width: 90%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--~~~~~~~~~~~~~~~~~~~End of Ranger Class~~~~~~~~~~~~~~~~~~~ -->
+
+          <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^Start of Wizard Class^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+          <div class="tab-pane" id="wizard"><h2>Wizard</h2><p>The Wizard brings powerful offense to the game with an easy to understand kit.</p>
+
+            <div class="row-fluid">
+              <div class="span6 well">
+                <h3>Active Ability - <i>Magic Missile</i></h3>
+                <p>The Wizard can throw a ‘Nuke’ which is an unblockable bounce as long as they say ‘Magic Missile’ in the voice of an old Wizard while they do it. (This counts as their shot for the turn).</p>
+              </div>
+
+              <div class="span5 well">
+                <h3>Passive Ability - <i>Flammable</i></h3>
+                <p>The Wizard is always ‘On Fire’, any time they make a shot they get their ball back. However after they make 3 cups, their on fire buff sizzles & their turn is over. Wizards should make sound effects while shooting ‘On Fire’.</p>
+              </div>
+            </div>
+
+            <div class="row-fluid">
+              <div class="span8">
+                <h4>Notes</h4>
+                <ul>
+                  <li><span>Wizard’s can not receive balls back except during Redemption. A Wizard’s teammate can only receive balls back once.</span></li>
+                </ul>
+              </div>
+              <div class="span4">
+                  <h4>Tips</h4>
+                <ul>
+                  <li><span>~~~~~~~~~~~~~~~~~~~~~~</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <p></p>
+
+            <div class="ranking row-fluid">
+              <div class="span4">
+                <span>Complexity 2/10</span>
+                <div class="progress">
+                  <div class="bar"
+                       style="width: 20%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Difficulty 5/10</span>
+                <div class="progress progress-warning">
+                  <div class="bar"
+                       style="width: 40%;"></div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <span>Fun Factor 8/10</span>
+                <div class="progress progress-danger">
+                  <div class="bar"
+                       style="width: 80%;"></div>
+                </div>
+              </div>
+            </div> <!--~~~~End of Row~~~~~~~~ -->
+          </div>
+          <!--~~~~~~~~~~~~~~~~~~~End of Wizard Class~~~~~~~~~~~~~~~~~~~ -->
+        </div>
+              
+      </section>
+
+      <hr>
+
+      <section id="appendix">
+        <h1>Appendix</h1>
+
+        <br>
+
+        <div class="row-fluid">
+          <div class="span6">
+            <div class="well">
+              <h2>Terminology</h2>
+              <ul id="terminology">
+                <li><b>Active Ability</b> - Active Abilities are power-ups that you can use after your team has Re-Racked. Active abilities must be announced, failing to do so will prevent their use.</li>
+                <li><b>Class</b> - A class is a role that each player must choose; each class has their own abilities.</li>
+                <li><b>Cup Made</b> - A cup is made when a ball is thrown into a cup and it does not come out. This cup must be drank and removed from the Playfield.</li>
+                <li><b>Graveyard</b> - The area where cups that have been made are stored.</li>
+                <li><b>Playfield</b> - The area where cups that are in play are kept.</li>
+                <li><b>Passive Ability</b> - Passive Abilities are power-ups that are always on.</li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="span6">                       
+            <div id="ratingChart">
+              <div class="ranking">
+
+                <div class="row-fluid"><!--~~~~Start of Row~~~~~~~~ -->
+                  <div class="span3">
+                    <h3>Assassin</h3>
+                  </div>
+                  <div class="span3">
+                    <span>Complexity 4/10</span>
+                    <div class="progress">
+                      <div class="bar"
+                           style="width: 40%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Difficulty 7/10</span>
+                    <div class="progress progress-warning">
+                      <div class="bar"
+                           style="width: 70%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Fun Factor 10/10</span>
+                    <div class="progress progress-danger">
+                      <div class="bar"
+                           style="width: 100%;"></div>
+                    </div>
+                  </div>
+                </div> <!--~~~~End of Row~~~~~~~~ -->
+
+                <div class="row-fluid"><!--~~~~Start of Row~~~~~~~~ -->
+                  <div class="span3">
+                    <h3>Bard</h3>
+                  </div>
+                  <div class="span3">
+                    <span>Complexity 9/10</span>
+                    <div class="progress">
+                      <div class="bar"
+                           style="width: 90%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Difficulty 4/10</span>
+                    <div class="progress progress-warning">
+                      <div class="bar"
+                           style="width: 40%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Fun Factor 5/10</span>
+                    <div class="progress progress-danger">
+                      <div class="bar"
+                           style="width: 50%;"></div>
+                    </div>
+                  </div>
+                </div> <!--~~~~End of Row~~~~~~~~ -->
+
+                <div class="row-fluid"><!--~~~~Start of Row~~~~~~~~ -->
+                  <div class="span3">
+                    <h3>Berserker</h3>
+                  </div>
+                  <div class="span3">
+                    <span>Complexity 2/10</span>
+                    <div class="progress">
+                      <div class="bar"
+                           style="width: 20%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Difficulty 4/10</span>
+                    <div class="progress progress-warning">
+                      <div class="bar"
+                           style="width: 40%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Fun Factor 10/10</span>
+                    <div class="progress progress-danger">
+                      <div class="bar"
+                           style="width: 100%;"></div>
+                    </div>
+                  </div>
+                </div> <!--~~~~End of Row~~~~~~~~ -->
+
+                <div class="row-fluid"><!--~~~~Start of Row~~~~~~~~ -->
+                  <div class="span3">
+                    <h3>Cleric</h3>
+                  </div>
+                  <div class="span3">
+                    <span>Complexity 6/10</span>
+                    <div class="progress">
+                      <div class="bar"
+                           style="width: 60%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Difficulty 3/10</span>
+                    <div class="progress progress-warning">
+                      <div class="bar"
+                           style="width: 30%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Fun Factor 6/10</span>
+                    <div class="progress progress-danger">
+                      <div class="bar"
+                           style="width: 60%;"></div>
+                    </div>
+                  </div>
+                </div> <!--~~~~End of Row~~~~~~~~ -->
+
+                <div class="row-fluid"><!--~~~~Start of Row~~~~~~~~ -->
+                  <div class="span3">
+                    <h3>Guardian</h3>
+                  </div>
+                  <div class="span3">
+                    <span>Complexity 6/10</span>
+                    <div class="progress">
+                      <div class="bar"
+                           style="width: 60%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Difficulty 5/10</span>
+                    <div class="progress progress-warning">
+                      <div class="bar"
+                           style="width: 50%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Fun Factor 9/10</span>
+                    <div class="progress progress-danger">
+                      <div class="bar"
+                           style="width: 90%;"></div>
+                    </div>
+                  </div>
+                </div> <!--~~~~End of Row~~~~~~~~ -->
+
+                <div class="row-fluid"><!--~~~~Start of Row~~~~~~~~ -->
+                  <div class="span3">
+                    <h3>Necromancer</h3>
+                  </div>
+                  <div class="span3">
+                    <span>Complexity 9/10</span>
+                    <div class="progress">
+                      <div class="bar"
+                           style="width: 90%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Difficulty 4/10</span>
+                    <div class="progress progress-warning">
+                      <div class="bar"
+                           style="width: 40%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Fun Factor 6/10</span>
+                    <div class="progress progress-danger">
+                      <div class="bar"
+                           style="width: 60%;"></div>
+                    </div>
+                  </div>
+                </div> <!--~~~~End of Row~~~~~~~~ -->
+
+                <div class="row-fluid"><!--~~~~Start of Row~~~~~~~~ -->
+                  <div class="span3">
+                    <h3>Ranger</h3>
+                  </div>
+                  <div class="span3">
+                    <span>Complexity 4/10</span>
+                    <div class="progress">
+                      <div class="bar"
+                           style="width: 40%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Difficulty 9/10</span>
+                    <div class="progress progress-warning">
+                      <div class="bar"
+                           style="width: 90%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Fun Factor 7/10</span>
+                    <div class="progress progress-danger">
+                      <div class="bar"
+                           style="width: 70%;"></div>
+                    </div>
+                  </div>
+                </div> <!--~~~~End of Row~~~~~~~~ -->
+
+                <div class="row-fluid"><!--~~~~Start of Row~~~~~~~~ -->
+                  <div class="span3">
+                    <h3>Wizard</h3>
+                  </div>
+                  <div class="span3">
+                    <span>Complexity 2/10</span>
+                    <div class="progress">
+                      <div class="bar"
+                           style="width: 20%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Difficulty 4/10</span>
+                    <div class="progress progress-warning">
+                      <div class="bar"
+                           style="width: 40%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="span3">
+                    <span>Fun Factor 8/10</span>
+                    <div class="progress progress-danger">
+                      <div class="bar"
+                           style="width: 80%;"></div>
+                    </div>
+                  </div>
+                </div> <!--~~~~End of Row~~~~~~~~ -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <footer>
+        <p>© <a href="http://www.realdedicated.net">Real Dedicated 2012</a> | This site was made by <a href="http://brendanerquiaga.github.com">Brendan Erquiaga</a></p>
+      </footer>
+    </div>
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body></html>
