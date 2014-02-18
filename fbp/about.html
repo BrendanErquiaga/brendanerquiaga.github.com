@@ -1,106 +1,163 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <title>Fantasy Beer Pong</title>
+    <title>Fantasy Beer Pong | About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/core.css" rel="stylesheet">
-	<link  href="css/coin-slider-styles.css" rel="stylesheet"/>
-	
-	
     <style type="text/css">
       body {
-        padding-top: 60px;
-        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 60px;
       }
-      .sidebar-nav {
-        padding: 9px 0;
+
+      /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+      .container > hr {
+        margin: 60px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 80px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+
+
+      /* Customize the navbar links to be fill the entire space of the .navbar */
+      .navbar .navbar-inner {
+        padding: 0;
+      }
+      .navbar .nav {
+        margin: 0;
+        display: table;
+        width: 100%;
+      }
+      .navbar .nav li {
+        display: table-cell;
+        width: 1%;
+        float: none;
+      }
+      .navbar .nav li a {
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid rgba(255,255,255,.75);
+        border-right: 1px solid rgba(0,0,0,.1);
+      }
+      .navbar .nav li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
       }
     </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/core.css" rel="stylesheet">
 
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
   </head>
 
   <body>
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="index.html">Fantasy Beer Pong</a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="rules.html">Rules</a></li>
-              <li class="active"><a href="about.html">About</a></li>  
-              <li><a href="changelist.html">Change List</a></li>
-              <li><a href="tracking.html">Stat Tracking</a></li>                
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
 
-    <div class="container" id="aboutContainer">
-      <div class="row"><!--Main Boxes -->
-        <div class="span5 well">
-          <a href="http://realdedicated.net/index.php/team"><img src="img/rd_icon.png" id="rdIcon"></img></a>
+    <div class="container">
+
+      <div class="masthead">
+        <img class="logo" src="img/FBP_SquareLogo.png"></img>
+          <h3 class="muted">Fantasy Beer Pong</h3>
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container">
+              <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li class="active"><a href="about.html">About</a></li>
+                <li><a href="changelist.html">Change List</a></li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- /.navbar -->
+      </div>
+
+      <div class="row-fluid"><!--Main Boxes -->
+        <div class="span5 offset1 well">
 
           <h1>Who are we?</h1>
           <p>We are two Game Designers who currently live in lovely Phoenix, AZ. We make games in our spare time as a hobby, a passion and hopefully as a career. </p>
-          <p>We are part of a group called <a href="http://realdedicated.net/index.php/team">Real Dedicated</a>. Real Dedicated is a fellowship of technology professionals and alumni who share a strong passion for making games. Real Dedicated means you willingly sacrifice time and sleep to complete a project. Real Dedicated means everything you create is an attempt to achieve a professional level of quality and to better yourself.</p>
+
           <p>So. Aside from making games together, we went to college together. This came with it's fair share of drinking games, as you can imagine. Over the years we've played them all, we've even made a few. Eventually we decided to put our brains together and make Beer Pong better. And that lead you here!</p>
           <p>Also we like beer.</p>
         </div>
 
         <div class="span5 well">
-          <h1>Why? No Seriously, Why?</h1>
+          <h1>But...why?</h1>
           <p>Because it's fun. Because we could. And because we were inspired by a <a href="http://www.linkedin.com/pub/evohn-%22mike%22-lorring/41/910/763">friend</a>.</p>
           <p>We wanted to take the inspiration of merging Role Playing and Beer Pong to a new level. We wanted to flex our design muscles and put things like class diversity and strategic planning into a game about throwing balls into cups.</p>
-          <p>Our background as game designers forced us to think critically about which classes to include, why to include them and how the hell you play support in Beer Pong. We aren't done tweaking the game but we have made leaps and bounds from the original version.</p>
-          <p>One thing we've really enjoyed, this is a pure design challenge. There's no GUI, there's no code; just a game and trying to have fun while understanding the rules. </p>
+          <p>Our background as game designers forced us to think critically about which classes to include, why to include them and how the hell you play support in Beer Pong.</p>
         </div>
       </div>
 
-      <div class="row"><!--Lead Portraits -->
+      <div class="row-fluid"><!--Lead Portraits -->
         <div class="span4 offset2">
           <div class="row-fluid">
             <div class="span4">
               <a href="http://brendanerquiaga.github.com"><img src="img/brendan_profile.jpg" class="profileImage"></img></a>
             </div>
             <div class="span8 profileInfo">
-              <h3>Brendan Erquiaga</h3>
-              <h4>Lead Designer</h4>
+              <h4>Brendan Erquiaga</h4>
+              <h5>Lead Designer</h5>
               <h5><a href="http://brendanerquiaga.github.com">Portfolio</a></h5>
             </div>
           </div>
         </div>
 
-        <div class="span4">
+        <div class="span4 offset1">
           <div class="row-fluid">
             <div class="span4">
-              <a href="http://www.team405.com/williamcourtney/"><img src="img/william_profile.jpg" class="profileImage"></img></a>
+              <a href="http://williamcourtney.com/"><img src="img/william_profile.jpg" class="profileImage"></img></a>
             </div>
             <div class="span8 profileInfo">
-              <h3>William Courney</h3>
-              <h4>Designer</h4>
-              <h5><a href="http://www.team405.com/williamcourtney/">Portfolio</a></h5>
+              <h4>William Courney</h4>
+              <h5>Designer</h5>
+              <h5><a href="http://williamcourtney.com/">Portfolio</a></h5>
             </div>
           </div>
         </div>
@@ -108,24 +165,31 @@
 
       <br>
 
-      <div class="row"><!--Faithful Playtester Links -->
+      <div class="row-fluid"><!--Faithful Playtester Links -->
         <div class="span4 offset2">
           <p><a href="http://www.andrewmaul.com/">Andy Maul</a> - Faithful Playtester</p>
           <p><a href="http://splittingpolys.com/">Zach Robinson</a> - Faithful Playtester</p>
         </div>
 
-        <div class="span4 ">
+        <div class="span4 offset1">
           <p><a href="http://www.hibame.com/">Bryan Clark</a> - Faithful Playtester</p>
-          <p><a href="http://www.polygoneffect.com/">Dennis Porter</a> - Faithful Playtester</p>
+          <p><a href="http://dennisporter3d.com">Dennis Porter</a> - Faithful Playtester</p>
         </div>
-
-        
       </div>
+
+
       <hr>
 
       <footer>
-        <p>© <a href="http://www.realdedicated.net">Real Dedicated 2012</a> | This site was made by <a href="http://brendanerquiaga.github.com">Brendan Erquiaga</a></p>
+        <p>Website and content &copy; 2014 <a href="http://www.linkedin.com/in/brendanerquiaga">Brendan Erquiaga</a></p>
       </footer>
-    </div>
 
-</body></html>
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

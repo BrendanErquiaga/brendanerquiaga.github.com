@@ -1,55 +1,3 @@
-#rulesContainer * h1
-{
-	color:#08C;
-}
-
-.ranking
-{
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	width: 95%;
-	color: #FFF;
-	padding: 7px;
-	margin-bottom: 5px;
-	background-color: #736E70;
-	border: 1px solid #EEE;
-	border: 1px solid rgba(0, 0, 0, 0.05);
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-
-
-.ranking * .progress
-{
-	margin-bottom: 9px;
-}
-
-.classInfo
-{
-	padding: 7px;
-	margin-bottom: 5px;
-	margin-top:-20px;
-	background-color: #E0E0E0;
-	border: 1px solid #EEE;
-	border: 1px solid rgba(0, 0, 0, 0.05);
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-
-.nav-tabs > .active > a
-{
-	background-color: #E0E0E0;
-}
-
 #tldr
 {
 	color: white;
@@ -63,7 +11,7 @@
 	color: #12D7FF;
 }
 
-#tldr > h2
+#tldr > h2, #turnOrder > h2
 {
 	text-align: center;
 }
@@ -73,21 +21,12 @@
 	margin-top:20px;
 }
 
-#classRankingButton
+.classInfo
 {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#ratingChart h3
-{
-	margin-top: 10px;
-
-}
-
-#terminology li
-{
-	margin-top:8px;
+	margin-top:-20px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
 footer
@@ -107,25 +46,9 @@ footer
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+
+	margin-top: 12px;
 }
-
-#rdIcon
-{
-	float:left;
-	width:75px;
-	height: auto;
-	margin: 0px 20px 0px 0px;
-
-	border: 1px solid #F60;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-
-}
-
 
 .center
 {
@@ -143,7 +66,26 @@ footer
 	height: 330px;
 }
 
-#myCarousel
+.logo
 {
-	height:667px;
+	height: 50px;
+	width: auto;
+	margin-bottom: 5px;
+}
+
+.logo + h3
+{
+	display: inline;
+
+}
+
+#mainJumboTron
+{
+	margin: 30px 0 20px 0;
+}
+
+#bigLogo
+{
+	height: 500px;
+	width: auto;
 }
