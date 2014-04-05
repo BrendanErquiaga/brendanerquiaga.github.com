@@ -1,16 +1,17 @@
 body
 {
 	background-color: #191919;
-	color: black;
+	color: white;
 	font-size:16px;
 	font-family: Arimo, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-image: url("../img/bigStripe.png");
+	background-image: url("../img/backgrounds/office.png");
 	background-color: white;
 }
 
 h1,h2,h3,h4
 {
 	text-transform: lowercase;
+	color: #4F8DCA;
 }
 
 h1
@@ -56,7 +57,7 @@ h1
 	text-align: right;
 	vertical-align: middle;
 	margin-right: 20px;
-	margin-top: 10px;
+	padding-bottom: 8px;
 }
 
 .navbar .nav 
@@ -89,7 +90,7 @@ h1
 {
 	font-size: 40px;
 	font-weight: 700;
-	color: black;
+	color: white;
 	text-decoration: none;
 	margin-left: 20px;
 }
@@ -108,7 +109,7 @@ h1
 
 .staticbar a, .staticbar a:visited,.staticbar a:active
 {
-	color: black;
+	color: white;
 	font-size: 20px;
 	text-decoration: none;
 	margin-right: 20px;
@@ -139,6 +140,8 @@ h1
 	background-color: white;
 	opacity:0.9;
 	border: 7px solid #DBDCDE;
+
+	color: black;
 }
 
 .projectBox h2
@@ -299,7 +302,6 @@ p
 .titleDiv
 {
 	margin-bottom: 10px;
-	margin-top: 16px;
 }
 
 #playableTitleDiv div:first-child
@@ -356,7 +358,7 @@ p
 
 .sideColumn
 {
-	border-left: 3px dashed black;
+	border-left: 3px dashed white;
 	height: 600px;
 	padding-left: 30px;
 	margin-left: 30px;
@@ -515,6 +517,7 @@ p
     {
     	font-size: 20px;
     	font-weight: 600;
+    	color: white;
     }
 	
 	.accordion-heading .accordion-toggle
@@ -600,4 +603,39 @@ p
 	{
 		width:944px;
 		margin-left: 0px;
+		color: black;
+	}
+
+	footer
+	{
+		color: white;
+	}
+
+	.aboutMeBox
+	{
+		padding: 5px;
+		background-color: white;
+		opacity: 0.9;
+		border: 7px solid #DBDCDE;
+		color: black;
+	}
+
+	#linkedInIcon
+	{
+		margin-top: 3px;
+		height: 20px;
+		width: 20px;
+	}
+
+	#hauntedVideo
+	{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#storeIcon
+	{
+		width: 64px;
+		height: auto;
 	}
