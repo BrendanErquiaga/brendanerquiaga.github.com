@@ -1,0 +1,3 @@
+[submodule "Campaign-DIE"]
+	path = Campaign-DIE
+	url = https://github.com/BrendanErquiaga/Campaign-DIE
